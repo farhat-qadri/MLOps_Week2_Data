@@ -1,0 +1,27 @@
+name: Model Validation CI
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+jobs:
+  validate-model:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Set up DVC
+        uses: iterative/setup-dvc@v1
+      - name: Pull DVC data
+        # <-- CHANGE: Pulling the correct iris_v2.csv file for validation
+        run: dvc pull data/iris_v2.csv.dvc -f
+      - name: Run Validation Script
+        run: python validate.py
