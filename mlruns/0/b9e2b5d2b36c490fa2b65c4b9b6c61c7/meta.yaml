@@ -1,0 +1,14 @@
+artifact_uri: file:///home/farhatqadri1064/week8/MLOps_Week2_Data/mlruns/0/b9e2b5d2b36c490fa2b65c4b9b6c61c7/artifacts
+end_time: 1754405292132
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b9e2b5d2b36c490fa2b65c4b9b6c61c7
+run_name: luminous-deer-332
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754405289242
+status: 3
+tags: []
+user_id: farhatqadri1064

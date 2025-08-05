@@ -1,0 +1,14 @@
+artifact_uri: file:///home/farhatqadri1064/week8/MLOps_Week2_Data/mlruns/0/276af035b71d46e29c1cb248da0abddf/artifacts
+end_time: 1754405307994
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 276af035b71d46e29c1cb248da0abddf
+run_name: kindly-boar-279
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754405305169
+status: 3
+tags: []
+user_id: farhatqadri1064

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/farhatqadri1064/week8/MLOps_Week2_Data/mlruns/0/c2cda18498df440698025565859913ed/artifacts
+end_time: 1754405253306
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c2cda18498df440698025565859913ed
+run_name: gregarious-chimp-253
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754405249778
+status: 3
+tags: []
+user_id: farhatqadri1064

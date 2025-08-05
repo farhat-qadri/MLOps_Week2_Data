@@ -1,0 +1,10 @@
+artifact_location: file:///home/farhatqadri1064/week8/MLOps_Week2_Data/mlruns/0/models/m-1a9c1ade61ec4340b66f574f06f2d9b4/artifacts
+creation_timestamp: 1754405250374
+experiment_id: '0'
+last_updated_timestamp: 1754405253304
+model_id: m-1a9c1ade61ec4340b66f574f06f2d9b4
+model_type: null
+name: iris-model
+source_run_id: c2cda18498df440698025565859913ed
+status: 2
+status_message: null

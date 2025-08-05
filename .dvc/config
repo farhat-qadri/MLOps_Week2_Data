@@ -1,4 +1,0 @@
-[core]
-    remote = storage_repo
-['remote "storage_repo"']
-    url = https://github.com/farhat-qadri/Iris-dvc-storage

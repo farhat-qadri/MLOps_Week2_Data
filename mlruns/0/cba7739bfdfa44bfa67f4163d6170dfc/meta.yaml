@@ -1,0 +1,14 @@
+artifact_uri: file:///home/farhatqadri1064/week8/MLOps_Week2_Data/mlruns/0/cba7739bfdfa44bfa67f4163d6170dfc/artifacts
+end_time: 1754405276032
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cba7739bfdfa44bfa67f4163d6170dfc
+run_name: mercurial-shrimp-31
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754405272934
+status: 3
+tags: []
+user_id: farhatqadri1064
