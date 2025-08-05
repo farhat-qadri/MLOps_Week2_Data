@@ -21,7 +21,8 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       
-      # DVC steps have been REMOVED. The data is now in the repo.
+      - name: Run Training Script
+        run: python train.py --data-path data/iris_v1.csv --poison-level 0
 
       - name: Run Validation Script
         run: python validate.py
